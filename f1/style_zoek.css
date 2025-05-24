@@ -1,0 +1,131 @@
+form,
+div {
+   border: 1px solid #ccc;
+   padding: 30px;
+   margin-left: 50px;
+   margin-top: 50px;
+   border-radius: 25px;
+   width: 600px;
+   background-image: url("backgrounds/film.jpg");
+   background-repeat: repeat-y;
+}
+
+.extra {
+   background-image: url("backgrounds/film.jpg");
+   background-repeat: no-repeat;
+
+   font: italic bold 20px/30px Georgia, serif;
+   color: whitesmoke;
+   text-align: center;
+   width: 600px;
+   padding: 30px;
+
+
+}
+
+
+input[type=text],
+input[type=password],
+select {
+   width: 250px;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+
+}
+
+input[type=submit] {
+   width: 250px;
+   background-color: #4CAF50;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type=reset] {
+   width: 100px;
+   background-color: #7b6df3;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type=submit]:hover {
+   background-color: #3c27b4;
+}
+
+table {
+   margin: 20px;
+   margin-top: 40px;
+   width: 80%;
+   border-collapse: collapse;
+   border-spacing: 15px;
+   line-height: 1.6;
+}
+
+tr:nth-child(even) {
+   background-color: white
+}
+
+tr:nth-child(odd) {
+   background-color: rgb(255, 0, 0);
+   color: white;
+}
+
+label {
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+}
+
+th {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: left;
+   background-color: #000000;
+}
+
+body {
+   font-size: small;
+   background-image: url("backgrounds/fototest.jpg");
+   background-size: contain;
+   height: 100vh;
+   font-family: 'Poppins', sans-serif;
+   background-attachment: fixed;
+   overflow: auto;
+   color: black;
+   margin-top: 107px;
+   margin-left: 30px;
+}
+
+.button1 {
+   background: #3685b0;
+   background: linear-gradient(to bottom, #3685b0, #53b2d7);
+   font-size: 19px;
+   border: 1px solid #2d63c8;
+   border-radius: 14px;
+   padding: 12px 50px;
+   cursor: pointer;
+   text-decoration: none;
+   position: absolute;
+   top: 20px;
+   left: 30px;
+}
+
+
+.button1 a:hover {
+   color: white;
+}
+
+.button1 a {
+   text-decoration: none;
+   color: #000000;
+}
